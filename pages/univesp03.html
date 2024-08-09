@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03 Univesp</title>
+</head>
+<body>
+    <h1>Arquitetura</h1>
+
+    <h2>Conteúdo desta Aula</h2>
+    Estilo Arquitetônico
+    Arquitetura de sistemas
+
+    <h2>Estilo Arquitetônico</h2>
+
+    Componentes = unidade modular com interfaces REQUIRIDAS e FORNECIDAS bem definidas que é substituivel dentro do seu ambiente. Pode ser criado conexões flexivel atraves de componentes dos modulos. 
+
+    Conexoes = o modo como os componentes estão ligados
+
+    Dados Intercambio = forma de troca dos dados entre os componentes (repositório compartilhado?)
+
+    Forma de configuração = maneira como os componentes são configurados (em tempo de execução?)
+
+    <h3>Tipos de estilo Arquitetônico</h3>
+
+    <ul>
+        <li>Arquitetura de camadas</li>
+        <li>Arquitetura baseada em objetos</li>
+        <li>Arquitetura centrada em dados</li> 
+        <li>Arquitetura baseada em eventos</li>
+        
+    </ul>
+
+    <h2>arquitetura de sistemas</h2>
+
+    Arquitetura Centralizada = Modelo Cliente Servidor
+    <ul>
+        Processos são divididos em dois grupos 
+        Servidor: Processo que imlplementa um serviço especifico
+        Cliente: processo que requisita um serviçço ao servidor
+        forma de interação: requisição-resposta
+    </ul>
+
+    Camadas de Aplicação = Considerando muitas aplicações e a sua escalabilidade:
+    <ul>
+        Nível de interface do usuário
+        Nivel de processamento
+        Nivel de dados
+
+    </ul>
+
+    Arquitetura Centralizada com arquiteturas multidivididas
+
+    Gerenciamento de sistemas: 
+    <ul>
+        Clientes gordos (Fat clients)
+        Clientes magros (thin clients)
+        
+    </ul>
+
+    Distinção Clara: Arquitetura de duas divisões (cliente e servidor)
+
+    Arquitetura de três divisões:
+
+    <ol>
+        Cliente 
+        Servidor
+        Servidor que pode agir como cliente
+    </ol>
+
+</body>
+</html>
