@@ -20,28 +20,36 @@
     </ul>
     <ul>
         <li>Distribuição Horizontal</li>
+        <ul>
             <li>Cliente ou servidor pode ser fisicamente subidividido em partes logicamente equivalemte</li>
             <li>Pode possuir porção de dados</li>
             <li>Balanceamento do carga</li>
             <li>Papéis não muito bem definidos</li>
             <li>Ex: Peer-to-Peer que envia um "pedaço" de um arquivo</li>
+        </ul>
     </ul>
     
-    Arquitetura Descentralizada - Peer-to-Peer
+    <h2>Arquitetura Descentralizada - Peer-to-Peer</h2>
     <ul>
-        Processos são todos iguais e flat
-        Cada processo age ao mesmo tempo como cliente e servidor(servente)
-        O cliente é quem inicia a requisição-resposta
+        <li>Processos são todos iguais e flat</li>
+        <li>Cada processo age ao mesmo tempo como cliente e servidor(servente)</li>
+        <li>O cliente é quem inicia a requisição-resposta</li>
     </ul>
+
     <p>Rede de sobreposição: rede onde os nós são formados pelos processos e os enlaces denotam os canais de comunicação.</p>
 
     <p>Arquiteturas "estruturadas" e "não-estruturais"</p>
 
-    Arquitetura estruturadas
+    <h2>Arquitetura Estruturadas</h2>
     <ul>
-        Possui 
+        <li>Rede de sobreposição é construída usuando um mecanismo determinístico e estruturado</li>
+        <li>Mecanismo usando comumente: DHT (Distributed Has Table).</li>
+        <li>Dados e nós recebem uma chave aleatória (128^160 bits).</li>
+        <p>Desafio: dada uma chave de um dado, papear para o identificador de um nó.</p>
+        <li>Neste caso a requisição é roteada entre os nós até alcançar o nó com o dado solicitado.</li>
     </ul>
-    Arquitetura Não-Etruturadas
+
+    <h2>Arquitetura Não-Etruturadas</h2>
     <ul>
         <li>Algoritimo </li>
     </ul>
