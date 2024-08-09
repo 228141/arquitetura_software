@@ -9,64 +9,61 @@
     <h1>Arquitetura</h1>
 
     <h2>Conteúdo desta Aula</h2>
-    Estilo Arquitetônico
-    Arquitetura de sistemas
+    <ul>
+        <li>Estilo Arquitetônico</li>
+        <li>Arquitetura de sistemas</li>
+    </ul>
 
     <h2>Estilo Arquitetônico</h2>
+    <p>Componentes = unidade modular com interfaces REQUIRIDAS e FORNECIDAS bem definidas que é substituível dentro do seu ambiente. Pode ser criado conexões flexíveis através de componentes dos módulos.</p> 
+    <ul>
+        <li>Conexões = o modo como os componentes estão ligados</li>
+        <li>Dados Intercâmbio = forma de troca dos dados entre os componentes (repositório compartilhado?)</li>
+        <li>Forma de configuração = maneira como os componentes são configurados (em tempo de execução?)</li>
+    </ul>
 
-    Componentes = unidade modular com interfaces REQUIRIDAS e FORNECIDAS bem definidas que é substituivel dentro do seu ambiente. Pode ser criado conexões flexivel atraves de componentes dos modulos. 
-
-    Conexoes = o modo como os componentes estão ligados
-
-    Dados Intercambio = forma de troca dos dados entre os componentes (repositório compartilhado?)
-
-    Forma de configuração = maneira como os componentes são configurados (em tempo de execução?)
-
-    <h3>Tipos de estilo Arquitetônico</h3>
-
+    <h3>Tipos de Estilo Arquitetônico</h3>
     <ul>
         <li>Arquitetura de camadas</li>
         <li>Arquitetura baseada em objetos</li>
         <li>Arquitetura centrada em dados</li> 
         <li>Arquitetura baseada em eventos</li>
+    </ul>
+
+    <h2>Arquitetura de Sistemas</h2>
+
+    <p>Arquitetura Centralizada = Modelo Cliente/Servidor: Netflix, sites de notícias, on-line bank, etc.</p>
+    <ul>
+        <li>Processos são divididos em dois grupos: Servidor e Cliente;</li>
+        <li>Servidor: Processo que implementa um serviço específico;</li>
+        <li>Cliente: processo que requisita um serviço ao servidor;</li>
+        <li>Forma de interação: requisição-resposta.</li>
+    </ul>
+
+    <p>Camadas de Aplicação = Considerando muitas aplicações e a sua escalabilidade:</p>
+    <ul>
+        <li>Nível de interface do usuário</li>
+        <li>Nível de processamento</li>
+        <li>Nível de dados</li>
+    </ul>
+
+    <p>Arquitetura Centralizada com arquiteturas multidivididas</p>
+
+    <h3>Gerenciamento de sistemas:</h3> 
+    <ul>
+        <li>Clientes gordos (Fat clients)</li>
+        <li>Clientes magros (Thin clients)</li>
         
     </ul>
 
-    <h2>arquitetura de sistemas</h2>
+    <P>Distinção Clara: Arquitetura de duas divisões (cliente e servidor)</P>
 
-    Arquitetura Centralizada = Modelo Cliente Servidor: Netiflix, sites de noticias, on-line bank, etc.
-    <ul>
-        Processos são divididos em dois grupos 
-        Servidor: Processo que imlplementa um serviço especifico
-        Cliente: processo que requisita um serviçço ao servidor
-        forma de interação: requisição-resposta
-    </ul>
-
-    Camadas de Aplicação = Considerando muitas aplicações e a sua escalabilidade:
-    <ul>
-        Nível de interface do usuário
-        Nivel de processamento
-        Nivel de dados
-
-    </ul>
-
-    Arquitetura Centralizada com arquiteturas multidivididas
-
-    Gerenciamento de sistemas: 
-    <ul>
-        Clientes gordos (Fat clients)
-        Clientes magros (thin clients)
-        
-    </ul>
-
-    Distinção Clara: Arquitetura de duas divisões (cliente e servidor)
-
-    Arquitetura de três divisões:
+    <h2>Arquitetura de três divisões:</h2>
 
     <ol>
-        Cliente 
-        Servidor
-        Servidor que pode agir como cliente
+        <li>Cliente</li> 
+        <li>Servidor</li>
+        <li>Servidor que pode agir como cliente</li>
     </ol>
 
 </body>
