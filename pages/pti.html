@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PTI</title>
+</head>
+<body>
+    
+    1- Vantagens de utilizar uma metodologia ágil na construção de sistemas de software.
+
+    As metodologias ágeis oferecem várias vantagens na construção de sistemas de software, principalmente em ambientes dinâmicos e de rápida mudança. Aqui estão algumas delas:
+    Flexibilidade e Adaptabilidade: As metodologias ágeis permitem que as equipes respondam rapidamente a mudanças nas necessidades do cliente ou no mercado. Como os projetos são divididos em ciclos curtos (sprints), é possível ajustar o desenvolvimento conforme as prioridades mudam.
+    Entrega Contínua de Valor: Com o desenvolvimento incremental, funcionalidades de valor são entregues regularmente, permitindo que os clientes vejam resultados rapidamente e forneçam feedback contínuo. Isso aumenta a satisfação do cliente.
+    Melhor Gestão de Riscos: Como as revisões e testes são feitos frequentemente, os problemas podem ser identificados e resolvidos mais cedo no processo, reduzindo o risco de falhas críticas.
+    Colaboração e Comunicação Eficazes: As metodologias ágeis promovem uma comunicação aberta e constante entre todos os membros da equipe, incluindo clientes e partes interessadas, o que facilita a alocação de tarefas e a resolução de problemas.
+    Foco no Cliente: A abordagem ágil coloca o cliente no centro do processo de desenvolvimento, garantindo que o produto final esteja alinhado com as suas expectativas e necessidades.
+    2- Principais tipos de arquitetura de software e integração de um sistema de e-commerce
+    Arquitetura Monolítica
+    A arquitetura monolítica é caracterizada por um único bloco de código onde todas as funcionalidades do sistema estão interconectadas. Todos os componentes do software são desenvolvidos e implantados juntos. Exemplo: um sistema de gerenciamento de estoque em uma pequena loja que não necessita de grande escalabilidade ou integração complexa com outros sistemas.
+    Arquitetura em Camadas (N-Tier)
+    A arquitetura em camadas divide o sistema em diferentes camadas, como apresentação, lógica de negócio e acesso a dados, que podem ser desenvolvidas e mantidas separadamente. Exemplo: um aplicativo de banco, onde a interface do usuário está separada da lógica de transações e do armazenamento de dados.
+    Arquitetura Orientada a Serviços (SOA)
+    A SOA é uma abordagem onde o software é composto por serviços independentes que comunicam entre si através de uma rede. Cada serviço executa uma função de negócio específica. Exemplo: sistemas corporativos que integram módulos de ERP, CRM, e logística através de serviços independentes.
+    Arquitetura de Microsserviços
+    A arquitetura de microsserviços é uma evolução da SOA, onde o sistema é dividido em serviços menores e independentes que podem ser desenvolvidos, implantados e escalados individualmente. Exemplo: grandes plataformas como Netflix e Amazon, onde cada parte do sistema (streaming, pagamento, recomendação) é um microsserviço independente.
+    Abordagem para integrar um sistema de e-commerce com seus fornecedores
+    Para integrar um sistema de e-commerce com seus fornecedores, a arquitetura de microsserviços seria uma escolha eficaz. Essa abordagem permitiria a criação de serviços específicos para gerenciar pedidos, inventário, pagamentos, e entregas, com comunicação eficiente entre eles através de APIs.
+    Exemplo de Integração: Um microsserviço poderia ser responsável por processar pedidos, que ao ser acionado comunicaria com outro serviço dedicado à gestão de inventário. Caso o produto esteja disponível, uma solicitação seria enviada automaticamente ao sistema do fornecedor para a reposição ou entrega direta ao cliente. Todo o fluxo, desde o pedido até a entrega, seria orquestrado por uma série de microsserviços que se comunicam via APIs RESTful.
+    Essa abordagem facilita a escalabilidade, manutenção e a possibilidade de substituir ou atualizar partes do sistema sem interromper a operação global.
+
+
+</body>
+</html>
